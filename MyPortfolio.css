@@ -1,0 +1,90 @@
+* {
+    list-style-type: none;
+    color: blueviolet;
+}
+
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style table header */
+  .styled-table th {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style table data cells */
+  .styled-table td {
+    padding: 8px;
+  }
+
+.container-fluid {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: blueviolet;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.skill-list {
+    list-style-type: none;
+    color: blueviolet;
+}
+
+.About-me{
+    margin-top: 220PX;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    color: rgb(169, 12, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 3px solid blueviolet;
+}
+
+.skill-heading {
+    color:  rgba(178, 121, 216, .959);
+    font-weight: 300;
+}
+
+.skill-list {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+.INTRO {
+    display: flex;
+    position: fixed;
+    text-align: left;
+    color: blueviolet;
+    width: 100%;
+    background-color: rgb(29, 194, 194);
+  }
+  
+  .image-INTRO {
+    margin-right: 20px; 
+  }
+  
+  .image-INTRO img {
+    height: auto;
+    width: 180px; 
+    height: 200px; 
+    position: relative;
+      clip-path: circle(50% at center);
+  }
+  
+  .INTRO-div {
+    flex-grow: 1;
+    margin-top: 50pX;
+  }
+  
